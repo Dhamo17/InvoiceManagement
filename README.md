@@ -1,5 +1,5 @@
 # InvoiceManagement
-This project reads the student who taken the course information from excel and generate the pdf invoices.
+This project reads student data with course information from excel and generate the pdf invoices.
 Apache POI library is used to read data from Microsoft Excel.
 itextPdf library is used to generate the PDF Invoices.
 
