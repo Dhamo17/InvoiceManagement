@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="invoicemanagement$sources"
+		revision="0.1"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20211114135446"/>
+	<dependencies>
+		<module organisation="com.itextpdf" name="itextpdf">
+			<revision name="5.3.2" status="release" pubdate="20120822150244" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.itextpdf.com/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="3366" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\itextpdf\ivy-5.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/itextpdf/5.3.2/itextpdf-5.3.2.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="5.3.2" rev-constraint-default="5.3.2" rev-constraint-dynamic="5.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="itextpdf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1813430" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\itextpdf\srcs\itextpdf-5.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/itextpdf/5.3.2/itextpdf-5.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927140542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2501" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="991412" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="sign">
+			<revision name="7.1.7" status="release" pubdate="20190710150604" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://itextpdf.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="8054" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\sign\ivy-7.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/sign/7.1.7/sign-7.1.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.7" rev-constraint-default="7.1.7" rev-constraint-dynamic="7.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="sign" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="129664" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\sign\srcs\sign-7.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/sign/7.1.7/sign-7.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="svg">
+			<revision name="7.1.7" status="release" pubdate="20190710145456" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://itextpdf.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="7662" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\svg\ivy-7.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/svg/7.1.7/svg-7.1.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.7" rev-constraint-default="7.1.7" rev-constraint-dynamic="7.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="svg" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="170420" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\svg\srcs\svg-7.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/svg/7.1.7/svg-7.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="pdfa">
+			<revision name="7.1.7" status="release" pubdate="20190710152528" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://itextpdf.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="7614" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\pdfa\ivy-7.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/pdfa/7.1.7/pdfa-7.1.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.7" rev-constraint-default="7.1.7" rev-constraint-dynamic="7.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="pdfa" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41014" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\pdfa\srcs\pdfa-7.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/pdfa/7.1.7/pdfa-7.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="forms">
+			<revision name="7.1.7" status="release" pubdate="20190710145316" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://itextpdf.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="7894" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\forms\ivy-7.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/forms/7.1.7/forms-7.1.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.7" rev-constraint-default="7.1.7" rev-constraint-dynamic="7.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="forms" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="70046" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\forms\srcs\forms-7.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/forms/7.1.7/forms-7.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="barcodes">
+			<revision name="7.1.7" status="release" pubdate="20190710145241" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://itextpdf.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="7391" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\barcodes\ivy-7.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/barcodes/7.1.7/barcodes-7.1.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.7" rev-constraint-default="7.1.7" rev-constraint-dynamic="7.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="barcodes" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="149769" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\barcodes\srcs\barcodes-7.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/barcodes/7.1.7/barcodes-7.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="styled-xml-parser">
+			<revision name="7.1.7" status="release" pubdate="20190710145803" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://itextpdf.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="7766" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\styled-xml-parser\ivy-7.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/styled-xml-parser/7.1.7/styled-xml-parser-7.1.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.7" rev-constraint-default="7.1.7" rev-constraint-dynamic="7.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="styled-xml-parser" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="472705" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\styled-xml-parser\srcs\styled-xml-parser-7.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/styled-xml-parser/7.1.7/styled-xml-parser-7.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="layout">
+			<revision name="7.1.7" status="release" pubdate="20190710150231" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://itextpdf.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="7500" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\layout\ivy-7.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/layout/7.1.7/layout-7.1.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.7" rev-constraint-default="7.1.7" rev-constraint-dynamic="7.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="layout" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="453286" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\layout\srcs\layout-7.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/layout/7.1.7/layout-7.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="kernel">
+			<revision name="7.1.7" status="release" pubdate="20190710150154" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://itextpdf.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="7762" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\kernel\ivy-7.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/kernel/7.1.7/kernel-7.1.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.7" rev-constraint-default="7.1.7" rev-constraint-dynamic="7.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="kernel" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1226615" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\kernel\srcs\kernel-7.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/kernel/7.1.7/kernel-7.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="io">
+			<revision name="7.1.7" status="release" pubdate="20190710150034" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://itextpdf.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="7133" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\io\ivy-7.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/io/7.1.7/io-7.1.7.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.7" rev-constraint-default="7.1.7" rev-constraint-dynamic="7.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="612312" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.itextpdf\io\srcs\io-7.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/io/7.1.7/io-7.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.13" status="release" pubdate="20151111014419" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5246" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50869" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml">
+			<revision name="3.17" status="release" pubdate="20170909025503" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3025" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.apache.poi\poi-ooxml\ivy-3.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.17" rev-constraint-default="3.17" rev-constraint-dynamic="3.17" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1047127" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.apache.poi\poi-ooxml\srcs\poi-ooxml-3.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.virtuald" name="curvesapi">
+			<revision name="1.04" status="release" pubdate="20160526095706" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/virtuald/curvesapi" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD License" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2974" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.github.virtuald\curvesapi\ivy-1.04.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.04" rev-constraint-default="1.04" rev-constraint-dynamic="1.04" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="curvesapi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201324" time="0" location="C:\Users\Dhamo\.ivy2\cache\com.github.virtuald\curvesapi\srcs\curvesapi-1.04-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.17" status="release" pubdate="20170909025359" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3372" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.apache.poi\poi\ivy-3.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.17/poi-3.17.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.17" rev-constraint-default="3.17" rev-constraint-dynamic="3.17" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="poi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2374854" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.apache.poi\poi\srcs\poi-3.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.17/poi-3.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-collections4">
+			<revision name="4.1" status="release" pubdate="20151126032515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11589" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.apache.commons\commons-collections4\ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-collections4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="701388" time="0" location="C:\Users\Dhamo\.ivy2\cache\org.apache.commons\commons-collections4\srcs\commons-collections4-4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106194535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10706" time="0" location="C:\Users\Dhamo\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="default" name="invoicemanagement$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="C:\Users\Dhamo\.ivy2\cache\commons-codec\commons-codec\srcs\commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
